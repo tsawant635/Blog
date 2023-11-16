@@ -1,0 +1,62 @@
+
+.navbarContainer {
+    background-color: #3ac862;
+    overflow: hidden;
+  
+    a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+
+      @media only screen and (min-width: 1024px) {
+       font-size: 22px;
+      }
+
+  
+      &:hover {
+        background-color: #ddd;
+        color: black;
+      }
+    }
+  
+    .searchBar {
+      font-size: 16px;
+      float: right;
+      display: block;
+      text-align: left;
+      width: 100%;
+      box-sizing: border-box;
+
+      input[type="text"] {
+          padding: 8px;
+          margin-top: 8px;
+          font-size: 12px;
+          border: none;
+          margin-left: 92px;
+          margin-bottom: 12px;
+        }
+
+      @media only screen and (min-width: 1024px) {
+        font-size: 22px;
+        float: right;
+        display: block;
+        text-align: left;
+        width: 100%;
+        box-sizing: border-box;
+
+
+        input[type="text"] {
+            padding: 8px;
+            margin-top: 8px;
+            font-size: 12px;
+            border: none;
+          }
+       }
+
+ 
+    }
+  }
+  
